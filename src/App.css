@@ -219,7 +219,7 @@ body.dark-mode pre, body.dark-mode code {
 
 /* Pop-up Input and Textarea */
 .popup input, .popup textarea {
-  width: calc(100% - 20px); /* Full width minus padding */
+  width: calc(100% - 20px);
   margin-top: 5px;
   margin-bottom: 10px;
   padding: 10px;
@@ -246,7 +246,7 @@ body.dark-mode pre, body.dark-mode code {
   color: #aaa; /* Placeholder text color in dark mode */
 }
 
-/* Label Styling */
+
 .popup label {
   display: block;
   margin-top: 10px;
@@ -290,7 +290,7 @@ body.dark-mode pre, body.dark-mode code {
 
 /* Row Styles for Dark Mode */
 .preview tr:nth-child(even) {
-  background-color: #3e3e3e; /* Slightly lighter dark background for even rows */
+  background-color: #3e3e3e; 
 }
 
 .preview tr:hover {

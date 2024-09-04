@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import Toolbar from './components/Toolbar';
 import Popup from './components/Popup';
 import { saveAs } from 'file-saver';
-import { exportToPDF } from './pdfUtils'; // Import the function to export to PDF
+import { exportToPDF } from './pdfUtils'; 
 import showdown from 'showdown';
 import './App.css';
 
@@ -99,10 +99,10 @@ function App() {
 
     if (type === 'link' || type === 'image') {
       setPopupType(type);
-      setPopupConfirm(() => handlePopupConfirm); // Correct function assignment
+      setPopupConfirm(() => handlePopupConfirm); 
       setIsPopupVisible(true);
     } else {
-      // Handle other formatting types
+ 
       let formattedText = '';
       let cursorOffset = 0;
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 
-function Navbar({ newFile, openFile, saveFile, exportToPDF, exportToHTML, toggleDarkMode, isDarkMode }) {
+function Navbar({ newFile, openFile, saveFile, exportToPDF, exportToHTML, toggleDarkMode, isDarkMode, askai }) {
   return (
     <nav className="navbar">
       <div className="navbar-brand">Markdown Tool</div>
@@ -23,6 +23,7 @@ function Navbar({ newFile, openFile, saveFile, exportToPDF, exportToHTML, toggle
         <li><button onClick={toggleDarkMode}>
         {isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
       </button></li>
+        <li><button onClick={exportToHTML}>Ask AI</button></li>
       </ul>
     </nav>
   );
