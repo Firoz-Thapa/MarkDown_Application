@@ -3,13 +3,14 @@
 **Author**: Firoz Thapa  
 **Degree**: Bachelor of Engineering, Industrial Information Technology, LAB University of Applied Sciences  
 **Completion Year**: 2026  
-**Student Number**: 2209558
 
 ## 1. Introduction
 
 ### Overview of the Project
 
 Markdown is a lightweight markup language for formatting text in a simple and readable way, easily converted to HTML. Widely used for documentation on platforms like GitHub, GitLab, and Bitbucket, this project focuses on a Markdown Documentation Tool that simplifies writing Markdown documents with a user-friendly interface. It offers live preview, Markdown features, and the ability to export documents as HTML or PDF.
+![Screenshot (333)](https://github.com/user-attachments/assets/788ad394-4c53-4841-b422-bd9e652a5ae2)
+
 
 ### Technology Stack
 
